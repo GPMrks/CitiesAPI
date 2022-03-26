@@ -1,2 +1,8 @@
-rootProject.name = 'CitiesAPI'
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+    }
+}
 
+rootProject.name = 'CitiesAPI'

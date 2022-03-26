@@ -1,6 +1,6 @@
 package dio.innovationone.CitiesAPI.entity;
 
-import dio.innovationone.CitiesAPI.service.PointType;
+import dio.innovationone.CitiesAPI.util.PointType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
