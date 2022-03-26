@@ -1,7 +1,9 @@
 package dio.innovationone.CitiesAPI.entity;
 
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
@@ -15,6 +17,8 @@ import java.util.List;
 @TypeDefs({
         @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
 })
+@AllArgsConstructor
+@NoArgsConstructor
 public class State {
 
     @Id

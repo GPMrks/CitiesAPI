@@ -1,6 +1,8 @@
 package dio.innovationone.CitiesAPI.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,6 +12,8 @@ import javax.persistence.Table;
 @Entity
 @Data
 @Table(name = "pais")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Country {
 
     @Id
@@ -25,8 +29,5 @@ public class Country {
     private String code;
 
     private Integer bacen;
-
-    public Country() {
-    }
 
 }
