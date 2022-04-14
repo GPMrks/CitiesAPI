@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/states")
+@RequestMapping("/api/v5/states")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class StateResource {
 

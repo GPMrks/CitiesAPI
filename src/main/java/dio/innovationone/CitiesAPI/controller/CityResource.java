@@ -11,7 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/cities")
+@RequestMapping("/api/v5/cities")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CityResource {
 

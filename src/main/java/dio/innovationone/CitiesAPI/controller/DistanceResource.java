@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/distances")
+@RequestMapping("/api/v5/distances")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class DistanceResource {
 

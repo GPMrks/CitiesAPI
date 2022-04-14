@@ -1,7 +1,6 @@
 package dio.innovationone.CitiesAPI.service;
 
 import dio.innovationone.CitiesAPI.entity.City;
-import dio.innovationone.CitiesAPI.entity.Country;
 import dio.innovationone.CitiesAPI.exception.NotFoundException;
 import dio.innovationone.CitiesAPI.repository.CityRepository;
 import lombok.AllArgsConstructor;
@@ -25,6 +24,7 @@ public class CityService {
     public City findCityById(Long id) throws NotFoundException {
         verifyIfExists(id);
         Optional<City> optional = cityRepository.findById(id);
+
         return optional.get();
     }
 
@@ -32,5 +32,4 @@ public class CityService {
         return cityRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException(id));
     }
-
 }

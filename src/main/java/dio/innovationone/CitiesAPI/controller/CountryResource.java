@@ -11,7 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/countries")
+@RequestMapping("/api/v5/countries")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CountryResource {
 
