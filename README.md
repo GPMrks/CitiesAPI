@@ -2,7 +2,7 @@
 
 <h2>Digital Innovation: Expert class - Desenvolvendo um sistema de busca de cidades do Brasil e cálculo de distância entre eles em API REST com Spring Boot</h2>
 
-<h3>Acesso a API hospedada no Heroku: http://api-citieslive.herokuapp.com/countries</h3>
+<h3>Acesso a API hospedada no Heroku: http://api-citieslive.herokuapp.com/</h3>
 
 <h4>Cities API</h4>
 
