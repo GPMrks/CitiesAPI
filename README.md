@@ -1,10 +1,14 @@
-# Cities API
+# Projeto Sistema de Busca de Cidades do Brasil API Rest
+
+<h2>Digital Innovation: Expert class - Desenvolvendo um sistema de busca de cidades do Brasil e cálculo de distância entre eles em API REST com Spring Boot</h2>
+
+<h3>Acesso a API hospedada no Heroku: http://api-citieslive.herokuapp.com/countries</h3>
+
+<h4>Cities API</h4>
 
 + Consulta de Países
 + Consulta de Estados e Cidades Brasileiras
 + Cálculo de Distância entre Cidades
-
-<h3>Acesso a API hospedada no Heroku: http://api-citieslive.herokuapp.com/countries</h3>
 
 ## Requirements
 
